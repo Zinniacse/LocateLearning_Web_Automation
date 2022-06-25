@@ -1,21 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="1" passed="0" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-06-25T13:31:20 BDT" name="Default suite" finished-at="2022-06-25T13:31:20 BDT" duration-ms="5">
+  <suite started-at="2022-06-25T13:35:29 BDT" name="Default suite" finished-at="2022-06-25T13:35:48 BDT" duration-ms="18875">
     <groups>
     </groups>
-    <test started-at="2022-06-25T13:31:20 BDT" name="Default test" finished-at="2022-06-25T13:31:20 BDT" duration-ms="5">
-      <class name="test_cases.Right_Click">
-        <test-method is-config="true" signature="setDriver()[pri:0, instance:test_cases.Right_Click@550dbc7a]" started-at="2022-06-25T13:31:19 BDT" name="setDriver" finished-at="2022-06-25T13:31:20 BDT" duration-ms="1827" status="PASS">
+    <test started-at="2022-06-25T13:35:29 BDT" name="Default test" finished-at="2022-06-25T13:35:48 BDT" duration-ms="18875">
+      <class name="test_cases.Scroll">
+        <test-method is-config="true" signature="setDriver()[pri:0, instance:test_cases.Scroll@21282ed8]" started-at="2022-06-25T13:35:27 BDT" name="setDriver" finished-at="2022-06-25T13:35:29 BDT" duration-ms="1841" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setDriver -->
-        <test-method is-config="true" signature="closeWindows()[pri:0, instance:test_cases.Right_Click@550dbc7a]" started-at="2022-06-25T13:31:20 BDT" name="closeWindows" finished-at="2022-06-25T13:31:21 BDT" duration-ms="64" status="PASS">
+        <test-method signature="scrollCheck()[pri:0, instance:test_cases.Scroll@21282ed8]" started-at="2022-06-25T13:35:29 BDT" name="scrollCheck" finished-at="2022-06-25T13:35:48 BDT" duration-ms="18854" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scrollCheck -->
+        <test-method is-config="true" signature="closeWindows()[pri:0, instance:test_cases.Scroll@21282ed8]" started-at="2022-06-25T13:35:48 BDT" name="closeWindows" finished-at="2022-06-25T13:35:48 BDT" duration-ms="39" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeWindows -->
-      </class> <!-- test_cases.Right_Click -->
+      </class> <!-- test_cases.Scroll -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
