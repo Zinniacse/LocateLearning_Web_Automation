@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-06-25T13:35:29 BDT" name="Default suite" finished-at="2022-06-25T13:35:48 BDT" duration-ms="18875">
+  <suite started-at="2022-06-25T13:43:19 BDT" name="Default suite" finished-at="2022-06-25T13:43:41 BDT" duration-ms="22592">
     <groups>
     </groups>
-    <test started-at="2022-06-25T13:35:29 BDT" name="Default test" finished-at="2022-06-25T13:35:48 BDT" duration-ms="18875">
-      <class name="test_cases.Scroll">
-        <test-method is-config="true" signature="setDriver()[pri:0, instance:test_cases.Scroll@21282ed8]" started-at="2022-06-25T13:35:27 BDT" name="setDriver" finished-at="2022-06-25T13:35:29 BDT" duration-ms="1841" status="PASS">
+    <test started-at="2022-06-25T13:43:19 BDT" name="Default test" finished-at="2022-06-25T13:43:41 BDT" duration-ms="22592">
+      <class name="test_cases.Slider">
+        <test-method is-config="true" signature="setDriver()[pri:0, instance:test_cases.Slider@21282ed8]" started-at="2022-06-25T13:43:17 BDT" name="setDriver" finished-at="2022-06-25T13:43:19 BDT" duration-ms="1752" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setDriver -->
-        <test-method signature="scrollCheck()[pri:0, instance:test_cases.Scroll@21282ed8]" started-at="2022-06-25T13:35:29 BDT" name="scrollCheck" finished-at="2022-06-25T13:35:48 BDT" duration-ms="18854" status="PASS">
+        <test-method signature="sliderCheck()[pri:0, instance:test_cases.Slider@21282ed8]" started-at="2022-06-25T13:43:19 BDT" name="sliderCheck" finished-at="2022-06-25T13:43:41 BDT" duration-ms="22565" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- scrollCheck -->
-        <test-method is-config="true" signature="closeWindows()[pri:0, instance:test_cases.Scroll@21282ed8]" started-at="2022-06-25T13:35:48 BDT" name="closeWindows" finished-at="2022-06-25T13:35:48 BDT" duration-ms="39" status="PASS">
+        </test-method> <!-- sliderCheck -->
+        <test-method is-config="true" signature="closeWindows()[pri:0, instance:test_cases.Slider@21282ed8]" started-at="2022-06-25T13:43:41 BDT" name="closeWindows" finished-at="2022-06-25T13:43:41 BDT" duration-ms="50" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeWindows -->
-      </class> <!-- test_cases.Scroll -->
+      </class> <!-- test_cases.Slider -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
