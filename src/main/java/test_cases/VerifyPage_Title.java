@@ -10,7 +10,7 @@ import base.Driver_Setup;
 
 public class VerifyPage_Title extends Driver_Setup {
 public String baseUrl="http://automationpractice.com/index.php";
-	
+	 
 	@Test(priority=1)
 	public void VerifyPageTitle_shouldPass() throws InterruptedException {
 		

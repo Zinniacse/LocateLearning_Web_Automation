@@ -18,8 +18,10 @@ public class Checkbox_RadioButton extends Driver_Setup {
 		driver.manage().window().maximize();
 
 		Thread.sleep(5000);
+		
 		// Switch to Frame
 		driver.switchTo().frame(0);
+		
 		// Operate Elements
 
 		driver.findElement(By.xpath("//body[1]/div[1]/fieldset[1]/label[3]/span[1]")).click();
@@ -27,7 +29,7 @@ public class Checkbox_RadioButton extends Driver_Setup {
 
 		// label[@for='radio-3']
 
-		Thread.sleep(5000);
+	    Thread.sleep(5000);
 		driver.findElement(By.xpath("//body[1]/div[1]/fieldset[2]/label[4]/span[1]")).click();
 		Thread.sleep(1000);
 		driver.findElement(By.xpath("//body[1]/div[1]/fieldset[2]/label[1]/span[1]")).click();
