@@ -24,11 +24,13 @@ public class Scroll extends Driver_Setup{
 		//Scroll to Bottom
 		js.executeScript("window.scrollTo(0,document.body.scrollHeight);");
 		Thread.sleep(5000);
+		
 		//Scroll to Top
 		js.executeScript("window.scrollTo(document.body.scrollHeight,0);");
 		Thread.sleep(5000);
 		//Scroll to specific Element
 		WebElement e=driver.findElement(By.xpath("//h2[@class='selenium']"));
+		
 		js.executeScript("arguments[0].scrollIntoView();",e);
 		Thread.sleep(5000);
 	}
