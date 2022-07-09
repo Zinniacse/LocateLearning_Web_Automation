@@ -3,21 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="test_cases.VerifyPage_Title">
-        <methods>
-          <include name="closeWindows"/>
-          <include name="VerifyPageTitle_shouldPass"/>
-          <include name="isWebSiteSecured"/>
-          <include name="setDriver"/>
-        </methods>
-      </class> <!-- test_cases.VerifyPage_Title -->
-      <class name="test_cases.Drop_Down">
+      <class name="test_cases.Checkbox_RadioButton_Advance">
         <methods>
           <include name="closeWindows"/>
           <include name="setDriver"/>
-          <include name="selectingMultipleValueFromDropdown"/>
+          <include name="checkBoxAndRadioButtonInIFrame"/>
         </methods>
-      </class> <!-- test_cases.Drop_Down -->
+      </class> <!-- test_cases.Checkbox_RadioButton_Advance -->
       <class name="test_cases.Scroll">
         <methods>
           <include name="closeWindows"/>
@@ -25,27 +17,20 @@
           <include name="scrollCheck"/>
         </methods>
       </class> <!-- test_cases.Scroll -->
-      <class name="test_cases.Keyboard_Event">
+      <class name="test_cases.Keyboard_Event_Advance">
         <methods>
           <include name="closeWindows"/>
           <include name="setDriver"/>
           <include name="KeyboardEventCheck"/>
         </methods>
-      </class> <!-- test_cases.Keyboard_Event -->
-      <class name="test_cases.Checkbox_RadioButton">
-        <methods>
-          <include name="closeWindows"/>
-          <include name="checkBoxAndRadioButtonInIFrame"/>
-          <include name="setDriver"/>
-        </methods>
-      </class> <!-- test_cases.Checkbox_RadioButton -->
-      <class name="test_cases.Refresh">
+      </class> <!-- test_cases.Keyboard_Event_Advance -->
+      <class name="test_cases.Drop_Down">
         <methods>
           <include name="closeWindows"/>
           <include name="setDriver"/>
-          <include name="refreshPage"/>
+          <include name="selectingMultipleValueFromDropdown"/>
         </methods>
-      </class> <!-- test_cases.Refresh -->
+      </class> <!-- test_cases.Drop_Down -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
